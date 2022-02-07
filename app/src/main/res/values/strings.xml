@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">2020_Android_training</string>
+    <string-array name="type">
+        <item>single_room</item>
+        <item>Double_room</item>
+    </string-array>
+
+    <string-array name="order_by">
+        <item>single_capacity</item>
+        <item>double_capacity</item>
+        <item>singleRoom_Price</item>
+        <item>doubleRoom_price</item>
+        <item>quality</item>
+    </string-array>
+    
+    <string-array name="spinner">
+        <item>crown_hotel</item>
+        <item>hilton_resort</item>
+        <item>steigenberger_cecil</item>
+    </string-array>
+</resources>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/registration"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="120dp"
+                tools:ignore="MissingConstraints"
+                android:padding="20dp">
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/registration_gmail"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:layout_weight="1"
+                        android:background="#D3CBCB"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:text="Gmail"
+                        android:textColor="#000"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:layout_marginRight="10dp"
+                        tools:layout_editor_absoluteX="35dp"
+                        tools:layout_editor_absoluteY="36dp" />
+
+                    <EditText
+                        android:id="@+id/registration_text_gmail"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#D3CBCB"
+                        android:ems="10"
+                        android:layout_weight="1"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:inputType="textPersonName"
+                        android:text=""
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        tools:layout_editor_absoluteX="173dp"
+                        tools:layout_editor_absoluteY="30dp" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/registration_password"
+                        android:layout_width="fill_parent"
+                        android:layout_marginBottom="20dp"
+                        android:layout_weight="1"
+                        android:background="#D3CBCB"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:text="Password"
+                        android:textColor="#000"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:layout_marginRight="10dp"
+                        tools:layout_editor_absoluteX="22dp"
+                        tools:layout_editor_absoluteY="129dp" />
+
+                    <EditText
+                        android:id="@+id/registration_text_password"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#D3CBCB"
+                        android:ems="10"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:inputType="textPassword"
+                        android:text=""
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        tools:layout_editor_absoluteX="173dp"
+                        tools:layout_editor_absoluteY="122dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scrollbarSize="20dp">
+
+                    <TextView
+                        android:id="@+id/registration_repassword"
+                        android:layout_width="200dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_weight="1"
+                        android:background="#D3CBCB"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:text="R_Password"
+                        android:textColor="#000"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:layout_marginRight="10dp"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:layout_editor_absoluteY="205dp" />
+
+                    <EditText
+                        android:id="@+id/registration_text_repassword"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#D3CBCB"
+                        android:ems="10"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:inputType="textPassword"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        tools:layout_editor_absoluteX="173dp"
+                        tools:layout_editor_absoluteY="198dp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+                    <Button
+                        android:id="@+id/registration_button_add"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:foregroundGravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="add"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        tools:layout_editor_absoluteX="131dp"
+                        tools:layout_editor_absoluteY="275dp" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
